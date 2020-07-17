@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link 
+    <link rel="stylesheet" href="styles.css">
+        <link 
     rel="stylesheet" 
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
     crossorigin="anonymous"
   />
-  <link rel="stylesheet" href="styles.css">
+  
 
 
 
     <title>Akan Names</title>
 </head>
-<body>
 
-    <div>
+<body>
+<div class="body">
+<div>
+
+    <div class="header">
         <H1>Akan Names</H1>
     </div>
 
@@ -30,9 +35,10 @@
     </div>
 
     <div>
-          <h2> Here are some Ghanaian Names: </h2>
+          <h2 class="header2"> Here are some Ghanaian Names: </h2>
 
-            <div class="list">
+            <div class="grid-wrapper1">
+                <div class="card">
                 
                     <h4>Female</h4>
                       
@@ -43,10 +49,15 @@
                         <li>Thursday:  Yaa</li>
                         <li>Friday: Afua</li>
                         <li>Saturday: Ama</li>
-                      
-            
+                </div>        
+
+            </div>
+
+            <div  class="grid-wrapper2">   
+                <div class="card">
+
                     <h4>Male</h4>
-                    
+                 
                         <li>Sunday: Kwasi</li>
                         <li>Monday: Kwadwo</li>
                         <li>Tuesday: Kwabena</li>
@@ -54,11 +65,13 @@
                         <li>Thursday:  Yaw</li>
                         <li>Friday: Kofi</li>
                         <li>Saturday: Kwame</li>
+                </div>         
             </div>
     </div>
     </div>
 
-
+    
+<center>
     <div>
         <h3 class="form-head"></h3>
          <form class="form-group" onsubmit="event.preventDefault()">
@@ -105,8 +118,9 @@
              required
          />
       </div>
+</center>     
 
-
+<center>
                 <div class="myradio">
 							<label for="radio" class="radio-inline">
 								<input
@@ -145,8 +159,7 @@
 						Submit
 					</button>
 
-
-					
+            				
 					<button
 						
 						value="reset"
@@ -155,7 +168,7 @@
 						Reset
                     </button>
                 </div>
-
+</center>
                 <div class="displayme container">
                     <div class="alert-success alert myalert container" id="alert1">
                         <p>
@@ -173,9 +186,13 @@
                         </p>
                     </div>
                 </div>
-
-    
+</div>    
+</div>
 
     <script src="script.js"></script>
+
+    <footer>
+        <p>2020 Aj inc All right reserved. 
+     </footer>
 </body>
 </html>
