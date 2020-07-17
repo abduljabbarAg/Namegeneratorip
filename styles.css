@@ -43,3 +43,24 @@
     color: rgb(255, 255, 255);
     font-size: 20px;
 }
+
+
+/*Grid Styling*/
+.grid-wrapper1 {
+    display: grid;
+    grid-gap: 5px;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(163, 163, 163);
+       
+}
+
+.grid-wrapper2 {
+    display: grid;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    background-color:  rgb(163, 163, 163);
+}
+
