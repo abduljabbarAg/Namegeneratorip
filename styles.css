@@ -39,7 +39,7 @@
 .header2 {
     padding: 1px;
     text-align: center;
-    background: #6b6b6b;
+    background: #817f7f;
     color: rgb(255, 255, 255);
     font-size: 20px;
 }
@@ -63,4 +63,24 @@
     padding: 10px;
     background-color:  rgb(163, 163, 163);
 }
+
+/* card styling*/
+.card {
+    font-weight: normal;
+	text-transform: uppercase;
+	text-align: left;
+    padding-top: vh;
+    background-color: rgb(158, 149, 141);
+    
+}
+
+/*Footer Settings*/
+footer {
+    text-align: center;
+    padding: 50px;
+    background-color: #9b9b9b;
+  }
+  footer p {
+    font-size: 1rem;
+  }
 
