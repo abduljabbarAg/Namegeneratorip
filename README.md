@@ -50,6 +50,10 @@ https://abduljabbarag.github.io/Namegeneratorip/.
 
 * **Abduljabbar AJ**  *Project Developer*   
 
+## Behaviour Driven Development BDD  
+This application was created to make it easier to get your Akan name by just adding the date details in the form .
+By just a click of the submit button the app will get your Akan name.
+
 
 ## License
 
