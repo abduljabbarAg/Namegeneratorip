@@ -27,7 +27,7 @@ const daysWeek        = [  "Sunday",  "Monday",	"Tuesday",	"Wednesday",	"Thursda
 function getAkanName() {
 
     //variable (date collection & integer conversion)
-    /*year, month & day is a string and will be converted to an integer*/ 
+    /*year, month & day is pare a string and will be converted to an integer*/ 
     
     var year = parseInt (document.getElementById ("year") .value);
     var month = parseInt (document.getElementById("month").value);
@@ -80,5 +80,14 @@ if (month <= 0 || month >= 13) {
 		document.getElementById("span2").innerHTML = "Akan Name is " + femaleAkanNames[dateOfBirth];
 	}
 }
+
 /*------------------------------------------------------------------------------------------------------------------------------------------------- */
 
+/*reload page from reset button*/
+/*This refreshes the page on the click of the reset button on home page*/
+
+function refreshPage() {
+	window.location.reload();
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------- */
