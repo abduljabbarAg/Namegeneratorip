@@ -9,3 +9,37 @@
 .body {
     background-color: rgb(199, 183, 170);
 }
+
+
+
+/*paragraph styling*/
+
+.p {
+    border: 1Px solid rgb(185, 125, 110);
+    padding: 10px;
+}
+
+/*paragraph styling*/
+
+.p {
+    border: 1Px solid rgb(185, 125, 110);
+    padding: 10px;
+}
+
+/* header styling*/
+.header {
+    padding: 4px;
+    text-align: center;
+    background: #6b6b6b;
+    color: rgb(251, 0, 0);
+    font-size: 30px;
+    
+}
+
+.header2 {
+    padding: 1px;
+    text-align: center;
+    background: #6b6b6b;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
