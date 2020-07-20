@@ -27,13 +27,13 @@ const daysWeek        = ["Sunday",  "Monday",	"Tuesday",	"Wednesday",	"Thursday"
 function getAkanName() {
 
     //variable (date collection & integer conversion)
-    /*year, month & day is pare a string and will be converted to an integer*/ 
+    /*year, month & day is a string and will be converted to an integer*/ 
     
     var year = parseInt (document.getElementById ("year") .value);
     var month = parseInt (document.getElementById("month").value);
     var day = parseInt (document.getElementById("day").value);
-    var male = document.getElementById(male);
-    var female = document.getElementById(female);
+    var male = document.getElementById("male");
+    var female = document.getElementById("female");
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------- */
 
